@@ -1,0 +1,35 @@
+/*
+Theme Name: MobarakShahrNews Pro
+Version: 1.0
+Description: Clean WordPress News Theme
+*/
+
+body{
+    margin:0;
+    font-family: Arial;
+    background:#f5f5f5;
+    direction: rtl;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#111;
+    color:#fff;
+    padding:20px;
+}
+
+.news-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:10px;
+    margin-bottom:10px;
+}
